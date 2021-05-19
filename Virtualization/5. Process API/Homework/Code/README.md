@@ -20,4 +20,4 @@ file.txt:
 Written by parent processWritten by child process
 ```
 
-3.
+3. To suspend the parent's process output before the child process print, we just need to write to some file after the child process print, and use a while loop to suspend the parent process until it have read some message in that file. Please check [my code](./q3.c) for more detail
